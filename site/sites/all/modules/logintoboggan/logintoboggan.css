@@ -1,0 +1,63 @@
+
+div.toboggan-container {
+  text-align: center;
+}
+
+div.toboggan-login-link-container {
+  text-align: left;
+}
+
+div.toboggan-login-link-container a {
+  text-decoration: none; position:relative; top:-5px; padding:12px;
+}
+
+div.toboggan-block-message {
+  text-align: left;
+}
+
+div.user-login-block {
+  text-align: left; position:absolute; background:none repeat scroll 0% 0% rgb(13,15,19); z-index:10; width:250px; border-radius:5px 5px 5px 5px; color:white; padding:10px;
+}
+
+div.user-login-block a {
+  text-align: left;
+}
+
+/* Unified login */
+
+.toboggan-unified #login-message {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2; font-family:Arial;
+}
+
+.toboggan-unified #login-links {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2.7;
+}
+
+.toboggan-unified #login-links a {
+  padding: .5em;
+  border: 1px #666 solid;
+  background-color: #EEE;font-family:Arial;
+}
+
+.toboggan-unified #login-links a:hover {
+  background-color: #DDD;
+}
+
+.toboggan-unified #login-links a.lt-active,
+.toboggan-unified #login-links a.lt-active:hover {
+  background-color: #FFF19A;
+  border: 2px #333 solid;
+ font-family:Arial;}
+
+.toboggan-unified.login #register-form {
+  display: none;
+}
+
+.toboggan-unified.register #login-form {
+  display: none;
+}
+
